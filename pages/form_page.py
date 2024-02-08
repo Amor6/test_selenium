@@ -31,4 +31,4 @@ class FormPage(BasePage):
         self.element_is_visible(Locators.SELECT_CITY).click()
         self.element_is_visible(Locators.INPUT_CITY).send_keys(Keys.RETURN)
         self.element_is_visible(Locators.SUBMIT_BUTTON).click()
-        return
+        time.sleep(5)
